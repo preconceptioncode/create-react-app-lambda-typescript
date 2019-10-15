@@ -1,8 +1,7 @@
-import * as React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-import { useLoading } from '@swyx/hooks';
+import { useLoading } from "@swyx/hooks";
+import * as React from "react";
+import "./App.css";
+import logo from "./logo.svg";
 
 function LambdaDemo() {
   const [isLoading, load] = useLoading();
@@ -12,7 +11,7 @@ function LambdaDemo() {
   ) => {
     e.preventDefault();
     load(
-      fetch('/.netlify/functions/' + api)
+      fetch("/.netlify/functions/" + api)
         .then(response => response.json())
         .then(json => setMsg(json.msg))
     );
@@ -20,11 +19,11 @@ function LambdaDemo() {
 
   return (
     <p>
-      <button onClick={handleClick('hello')}>
-        {isLoading ? 'Loading...' : 'Call Lambda'}
+      <button onClick={handleClick("hello")}>
+        {isLoading ? "Loading..." : "Call Lambda"}
       </button>
-      <button onClick={handleClick('async-chuck-norris')}>
-        {isLoading ? 'Loading...' : 'Call Async Lambda'}
+      <button onClick={handleClick("async-chuck-norris")}>
+        {isLoading ? "Loading..." : "Call Async Lambda"}
       </button>
       <br />
       <span>{msg}</span>

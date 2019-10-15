@@ -13,7 +13,9 @@
     "isolatedModules": true,
     "noEmit": true,
     "lib": ["es6", "dom"],
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "types": ["react", "jest", "node", "./@types/truevault"],
+    "typeRoots": ["./@types/"]
   },
   "exclude": ["src/setupProxy.js", "src/lambda"],
   "include": ["src"]
