@@ -10,6 +10,7 @@
     "axios": "^0.18.0",
     "axios-retry": "^3.1.2",
     "babel-plugin-import": "^1.12.2",
+    "crypto-js": "^3.1.9-1",
     "date-fns": "^2.4.1",
     "faunadb": "^2.8.1",
     "immer": "^4.0.1",
@@ -31,7 +32,6 @@
     "styled-components": "^5.0.0-beta.9",
     "truevault": "^1.3.0",
     "typesafe-actions": "^4.4.2",
-    "typescript": "3.6.4",
     "unstated-next": "^1.1.0",
     "use-deep-compare-effect": "^1.2.0",
     "use-immer": "^0.3.4",
@@ -82,7 +82,6 @@
     "http-proxy-middleware": "^0.20.0",
     "netlify-lambda": "^1.6.3",
     "npm-run-all": "^4.1.5",
-    "tslint": "^5.20.0",
-    "typescript": "^3.6.4"
+    "typescript": "^3.7.0-beta"
   }
 }
