@@ -14,7 +14,7 @@
     "noEmit": true,
     "lib": ["es6", "dom"],
     "jsx": "preserve",
-    "types": ["react", "jest", "node", "src/@types/truevault"],
+    "types": ["react", "jest", "node", "src/@types/truevault.d.ts"],
     "typeRoots": ["src/@types"]
   },
   "exclude": ["src/setupProxy.js", "src/lambda"],

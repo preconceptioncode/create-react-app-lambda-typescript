@@ -7,6 +7,7 @@
     "@ionic/react-router": "^4.11.1",
     "@react-pdf/renderer": "^1.6.7",
     "@swyx/hooks": "^0.0.20",
+    "@xstate/react": "^0.7.1",
     "axios": "^0.18.1",
     "axios-retry": "^3.1.2",
     "babel-plugin-import": "^1.12.2",
@@ -36,7 +37,8 @@
     "unstated-next": "^1.1.0",
     "use-deep-compare-effect": "^1.2.0",
     "use-immer": "^0.3.4",
-    "webpack-node-externals": "^1.7.2"
+    "webpack-node-externals": "^1.7.2",
+    "xstate": "^4.6.7"
   },
   "scripts": {
     "analyze": "source-map-explorer 'build/static/js/*.js'",
